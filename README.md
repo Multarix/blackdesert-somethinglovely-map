@@ -54,7 +54,7 @@ https://mega.nz/file/7t5yBTpb#kG8wK4gp6JKZf4W-qreqPQ8l9m0RdaowxDHBLk0rV8o (3.9GB
 1. Download latest PAZ files (i.e. just patch game)
 2. Get paz_browser from BDO Data/PazExtractor and put it in BDO paz folder
 3. Run it and search > mapdata_realexplore then extract mapdata_realexplore.xml and mapdata_realexplore2.xml
-4. Run it and search & extract > `ui_texture/new_ui_common_forlua/widget/rader/rader*.dds` (press A to select all)
+4. Run it and search & extract > `ui_texture/new_ui_common_forlua/widget/rader/minimap_data_pack/rader*.dds` (press A to select all)
 5. Wait for extraction to finish (ETA: 3h, set an alert)
 6. Put all of the dds map tiles into a folder called 'rader'
 7. Copy the 5 radar script files (radar-combine.sh, radar-combine-fast.sh, radar-convert.sh, radar-getbounds.js and radar-sort.js) into the folder above 'rader'
