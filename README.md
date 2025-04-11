@@ -38,12 +38,12 @@ The data is all in [data.json](src/data.json). Nodes are listed in custom object
 
 ## Updating map tiles
 
-https://mega.nz/file/7t5yBTpb#kG8wK4gp6JKZf4W-qreqPQ8l9m0RdaowxDHBLk0rV8o (3.9GB) and https://mega.nz/file/b4pz3CBD#Fr9EWgL77kpCe2Iteai0lZhuS36YTJKaUt1NLw5f0BI (58KB).
+https://mega.nz/file/7t5yBTpb#kG8wK4gp6JKZf4W-qreqPQ8l9m0RdaowxDHBLk0rV8o (3.9GB) and [Paz Browser](https://github.com/Multarix/blackdesert-somethinglovely-map/raw/refs/heads/main/paz_browser.zip) (58KB).
 
 #### Time estimates:
 
 * 5 mins work
-* 1 hour wait to extract tiles
+* 3 hour wait to extract tiles
 * 10 mins work (more if you need to install WSL/bash)
 * 6 hour wait to convert to giant singular map png
 * 30 mins to combine in photoshop
@@ -53,9 +53,9 @@ https://mega.nz/file/7t5yBTpb#kG8wK4gp6JKZf4W-qreqPQ8l9m0RdaowxDHBLk0rV8o (3.9GB
 
 1. Download latest PAZ files (i.e. just patch game)
 2. Get paz_browser from BDO Data/PazExtractor and put it in BDO paz folder
-3. Run it and Search > mapdata_realexplore then extract mapdata_realexplore.xml and mapdata_realexplore2.xml
-4. Run it and extract `rader*.dds` (search `rader*.dds`, then press A to select all)
-5. Wait for extraction to finish (ETA: 60 minutes, set an alert)
+3. Run it and search > mapdata_realexplore then extract mapdata_realexplore.xml and mapdata_realexplore2.xml
+4. Run it and search & extract > `ui_texture/new_ui_common_forlua/widget/rader/rader*.dds` (press A to select all)
+5. Wait for extraction to finish (ETA: 3h, set an alert)
 6. Put all of the dds map tiles into a folder called 'rader'
 7. Copy the 5 radar script files (radar-combine.sh, radar-combine-fast.sh, radar-convert.sh, radar-getbounds.js and radar-sort.js) into the folder above 'rader'
 8. In linux (probably WSL - https://docs.microsoft.com/en-us/windows/wsl/install-win10), make sure imagemagick is installed (sudo apt-get update followed by sudo apt-get install imagemagick)
